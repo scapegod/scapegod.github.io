@@ -1,0 +1,51 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.42857;
+  -webkit-font-smoothing: antialised; }
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: red; }
+
+body input:required:valid,
+body textarea:required:valid {
+  color: green; }
+
+.hidden {
+  display: none; }
+
+.main_head, section {
+  position: relative; }
+
+.main_head {
+  padding: 20px;
+  min-height: 620px;
+  z-index: -1; }
+
+.loader {
+  background: none repeat scroll #FFFFFF;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999; }
+
+.logo_container {
+  float: left; }
+
+svg {
+  height: 60px;
+  width: 60px;
+  z-index: 1;
+  position: relative; }
+  svg path {
+    fill: #222; }
+
+/*# sourceMappingURL=main.css.map */
